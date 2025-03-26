@@ -5,7 +5,7 @@ AlmaGill: A Proof-of-Stake pBFT Blockchain
 AlmaGill is a cryptocurrency implemented with a Proof-of-Stake (PoS) Practical Byzantine Fault Tolerance (pBFT) consensus mechanism.  This design is intended to achieve an efficient consensus mechanism that increases throughput rate of blocks while maintaining the security of the network.  This document provides a high-level overview of the AlmaGill implementation.
 
 ## Key Features
-Coin quantity is initated from the outset of the coin. After the tokens are initiated they are never created or destroyed, instead coin is divided into new accounts indefinitely. With a highly divisible token there is no limit to how many accounts can be created or the number of transactions the coin can embrace.
+Coin quantity is initated from the creation of the Data object. After the tokens are initiated they are never created or destroyed, instead coin is divided into new accounts indefinitely. With a highly divisible token there is no limit to how many accounts can be created or the number of transactions the coin can embrace.
 There is no intrinsic constraint on the number of blocks that can be verified at any given time. The only limitation to throughput is the capacity of verifying nodes.
 Validator selection is based on the amount of AlmaGill tokens held (staked).  This mechanism promotes decentralization and energy efficiency. With a minimal stake required we can resist attacks from malevolent users and because new tokens can never be created or destroyed we can ensure that a bad actors cannot infiltrate.
 *   **Practical Byzantine Fault Tolerance (pBFT):** A consensus algorithm that allows the network to tolerate up to a third of malicious or faulty nodes, ensuring data integrity and security.
